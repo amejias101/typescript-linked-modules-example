@@ -1,0 +1,16 @@
+{
+  "name": "child-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run typings install",
+    "typings": "typings"
+  },
+  "author": "James Churchill",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  }
+}
